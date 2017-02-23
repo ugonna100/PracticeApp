@@ -1,9 +1,24 @@
 /*
     Author     : Bakuano
 */
+.container {
+  position: relative;
+}
+
+.bodystyle {
+  background-color: black;
+}
+
 .main {
-  text-align: center;
   margin-top: 5em;
+  text-align: center;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
 .buttonColor {
@@ -18,6 +33,11 @@
     -webkit-transition: opacity .3s;
     -ms-transition: opacity .3s;
     transition: opacity .3s;
+}
+
+.buttonColor:hover {
+    opacity: 0.6;
+    color: #fff;
 }
 
 .font1 {
